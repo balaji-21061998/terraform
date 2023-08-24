@@ -1,3 +1,6 @@
+provider "aws" {
+  region = "us-west-1" 
+}
 resource "aws_iam_user" "Admin-user" {
   name = "lucy"
   tags = {
